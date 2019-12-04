@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+}
+body{
+	font-family: 'Open', sans-serif;
+}
+
+.color-navb {
+	background: purple;
+	
+}
+/*.nav-background{
+	height: auto;
+}*/
+
+
+
+/*=============================
+=============N A V===========*/
+.navbar-light .navbar-brand {
+color: rgba(0,0,0,.9);
+margin-left: 5%;
+}
+
+.navbar-expand-lg .navbar-nav {
+flex-direction: row;
+margin-right: 10%;
+}
+}
+.container{
+
+	width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	border-bottom: 4px solid transparent;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+	border-bottom-color: #fff;
+	transition: 0.2s;
+	color: yellow;
+	height: -23%;
+
+}
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color: yellow;
+
+}
+.text{
+	color: #fff;
+}
+
+.primer{
+	font-size: 48px; 
+	margin-bottom: 40px; 
+	
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: center;
+	color: #e5c63b;
+	text-emphasis-style:bold;
+	
+}
+
+h2 {
+	color: #fff;
+	text-align: justify;
+	text-shadow: rgba(255,255,55,0.5);
+}
+
+.influencer{
+	text-align: center;
+}
+
+.fondo{
+	font-family: 'Open Sans', sans-serif;
+	background: url(../img/fondo.png) no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+
+	
+}
+
+.fortnite-character{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+
+.fortnite-button{
+	background-image: linear-gradient(#f00, #000);
+	color: #fff;
+	display: inline-block;
+	padding: 5px 30px;
+	border-radius: 40px;
+	
+}
+
+.fortnite-button:hover{
+	background-image: linear-gradient(#000, #f00);
+	color: #fff;
+	text-decoration: none;
+	
+}
+p{
+	color: #fff;
+	
+}
+/*======================================
+===============C O R R O U S E L=========*/
+
+#carouselExampleIndicators li{  
+      color: yellow;
+      background: yellow;
+      height: 0px;
+  	  width: 10px;
+   	 border-radius: 11px;
+}
+
+.border img{
+	
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border: 5px solid #fff;
+
+}
+.sociales{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a{
+	color:#fff;
+	text-decoration: none;
+}
+.carousel-control-prev {
+	margin-top: 93px;
+}
+
+.carousel-control-next{
+	margin-top: 93px;
+}
+
+/*==========================================			======================================
+===================================F O R M U L A R I O==========================================
+=============================================================================================*/
+.formulario{
+	width: 500px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+.title_contact h1{
+	color: yellow;
+	font-size: 40px;
+font-family: 'Open', sans-serif;
+text-align: center;
+   margin-top: 160px;
+   margin-bottom: 20px;
+}
+.title_contact p{
+color: white;
+text-align: center;
+margin-top: 35px;
+    font-size: large;
+}
+
+
+.table{
+	/*margin: 150px auto;*/
+	width: 460px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: purple;
+	border-bottom: solid 5px #63007E;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: #ddd;
+}
+td:hover{
+	background-color: #F7F504;
+	color:white;
+}
+
+.bg-color{
+	
+	background: purple;
+	background: rgba(000,000,000,.6);
+	box-shadow: 0 5px 15px;
+}
+/*========================================================
+===============================M A I N=====================
+=========================================================*/
+.main_image img{
+	width: 100%;
+	height: auto;
+}
+.title_main h1{
+	color: yellow;
+	font-family: 'Open', sans-serif;
+	 text-align: center;
+    /*position: absolute;
+    margin-left: 38%;
+    margin-right: 38%;*/
+    margin-top: 80px;
+}
+.aviso_main{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mas_info{
+	background: white;
+	color: purple;
+	border-color: white;
+	width: 90px;
+    height: 45px;
+
+}
+.mas_info:hover{
+	background: purple;
+	color: white;
+	border-color: purple;
+	
+}
+.container_button{
+	/*
+	margin-left: 1239px;
+    margin-bottom: 3%;
+    margin-top: -10%;*/
+    width: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: -5%;
+
+}
+
+.mas_info a{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.form-control:focus{
+    color: red;
+    background-color: #fff;
+    border-color: yellow;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+
+
+
+/*===========C O M P R A ==========*/
+.my-3{
+	
+}
+.compra_footer{
+	margin-top: 10px;
+bottom: 0;
+position: fixed;
+width: 100%;
+}
+.compra_footer p{
+	text-align: center;
+	margin-left: auto;
+margin-right: auto;
+}
+
+/*===========C O M P R A ==========*/
+.map_contact{
+	border-radius: 10px;
+	
+}
+
+.mapp{
+	width: 800px;
+
+margin-left: auto;
+margin-right: auto;
+border-radius: 50px;
+overflow: hidden;
+position: relative;
+ max-width: 100%;
+ height: auto;
+}
+.videito{
+	width: 720px;
+height: 405px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.compra_title h1{
+	color: #FFE700;
+}
+.title_video h1{
+	color: #FFE700;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.table {
+width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*===================================
+================B O T O N=========*/
+.container_boton{
+ position: fixed;
+    top: 47%;
+    left: 90%;
+    width: 45px;
+    height: 45px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+    z-index: 500;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+color: #fff;
+    background-color: #BE00BA;
+    border-color: #4e555b;
+    width: 195px;
+    height: 77px;
+}
+
+.compra_title h1{
+	color: #FFE700;
+}
+.title_video h1{
+	color: #FFE700;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.table {
+width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Cuadro influencer*/
+
+body{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	color: #777;
+}
+
+h1{
+	font-size: 36px;
+	color: #BE008A;
+	font-weight: bold;
+
+}
+
+
+ h3, h5{
+	font-size: 24px;
+	color: #BE008A;
+	font-weight: bold;
+}
+
+#team img{
+	margin-top: -5px;
+}
+
+#team i {
+	font-size: 18px;
+	color: #BE008A;
+}
+#team p{
+	font-weight: 500;
+	color: #BE008A;
+}
+
+#team .card {
+	border-radius: 0;
+	box-shadow: 5px 5px 15px #BE008A;
+	transition: all 0.3s case-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	height: 100%;
+}
+
+#team .card:hover{
+	background: #BE008A;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	border-color: transparent;
+	box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+#team .card:hover h3, #team .card:hover i, #team .card:hover p, #team .card:hover h5{
+	color:#fff;
+}
+
+
+#team .card-body{
+	flex-direction: column;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#team .redes{
+	margin-top: auto;
+}
+.label{
+	color: white;
+}
+.font{
+	color: white;
+}
+.info_video{
+	padding: 10px 0px 17px 0px;
+    max-width: 1500px;
+    width: 100%;
+}
+.in_video h1{
+	position: inherit;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
